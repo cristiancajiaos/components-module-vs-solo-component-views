@@ -1,3 +1,4 @@
+import { FourModule } from './four/four.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OneComponent } from './one/one.component';
@@ -13,7 +14,7 @@ import { ThreeComponent } from './three/three.component';
     ThreeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     OneComponent,
