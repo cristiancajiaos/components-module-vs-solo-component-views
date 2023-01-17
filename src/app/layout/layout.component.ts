@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LayoutComponent implements OnInit {
 
+  public routes: any = [
+    { name: 'Home', url: '/home' },
+    { name: 'About', url: '/about' },
+    { name: 'Contact', url: '/contact' }
+  ];
+  
   constructor() { }
 
   ngOnInit() {
